@@ -37,3 +37,28 @@ console.log("Value of b", b);
 console.log("answer ====> ");
 console.log("Value of a", a);
 console.log("Value of b", b);
+
+//? Type Annotation (TypeScript)
+//? Instructions: This applies to TypeScript. Create a string variable and try changing its type.
+
+let message: string;
+message = "String";
+
+/ message = 45; /; //* Type 'number' is not assignable to type 'string'.
+
+console.log(message);
+
+//?  Modulus Operator
+//? Instructions: Use the modulus operator to find the remainder of two numbers.
+
+let num3: number = 9,
+  num4: number = 3;
+
+let result2: number = num3 % num4;
+console.log(`Reminder of ${num3} and ${num4} is : `, result2);
+
+num3 = 10;
+num4 = 3;
+
+result2 = num3 % num4;
+console.log(`reminder of ${num3} and ${num4} is : `, result2);
