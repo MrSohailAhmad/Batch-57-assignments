@@ -103,3 +103,17 @@ let not_Expression: object = [
 console.table(and_Expression);
 console.table(or_Expression);
 console.table(not_Expression);
+
+//? 8. Compound Assignment
+//? Instructions: Show examples of using compound assignment operators.
+
+let num = 10; // Use +=, -=, *=, and /= on this variable.
+
+num += 5;
+console.log("num += 5 : ", num);
+num -= 5;
+console.log("num -= 5 :", num);
+num *= 5;
+console.log("num *= 5 : ", num);
+num /= 5;
+console.log("num /= 5 : ", num);
