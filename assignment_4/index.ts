@@ -260,3 +260,12 @@ if (number == 0) {
 } else {
   console.log(`${number} is Positive`);
 }
+
+// //? 16. Multiplication Table
+// //? Instructions: Write a program that prints the multiplication table of a given number up to 10.
+
+let tableNumber: number = 10; // Change this to print the multiplication table of a different number.
+
+for (let i = 1; i <= 10; i++) {
+  console.log(`${tableNumber} * ${i} = ${tableNumber * i}`);
+}
