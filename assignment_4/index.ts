@@ -72,3 +72,34 @@ counter++;
 console.log(counter);
 counter + 1;
 console.log(counter);
+
+//? 7. Logical Gates
+//? Instructions: Given three Boolean variables, write expressions for AND, OR, and NOT gates.
+
+let a_true: boolean = true,
+  b_false: boolean = false,
+  c: boolean = true;
+
+let and_Expression = [
+  { AND_Expression: `${a_true} AND ${c}`, value: `${a && c}` },
+  { AND_Expression: `${a_true} AND ${b_false}`, value: `${a && b}` },
+  { AND_Expression: `${b_false} AND ${a_true}`, value: `${b && a}` },
+  { AND_Expression: `${b_false} AND ${c}`, value: `${b && c}` },
+];
+
+let or_Expression: object = [
+  { OR_Expression: `${a_true} OR ${c}`, value: `${a || c}` },
+  { OR_Expression: `${a_true} OR ${b_false}`, value: `${a || b}` },
+  { OR_Expression: `${b_false} OR ${a_true}`, value: `${b || a}` },
+  { OR_Expression: `${b_false} OR ${c}`, value: `${b || c}` },
+];
+
+let not_Expression: object = [
+  { NOT_Expression: `${a_true} NOT`, value: `${!a}` },
+  { NOT_Expression: `${b_false} NOT `, value: `${!b}` },
+  { NOT_Expression: `${c} NOT`, value: `${!c}` },
+];
+
+console.table(and_Expression);
+console.table(or_Expression);
+console.table(not_Expression);
