@@ -227,3 +227,36 @@ let fahrenheit: number = 89; // Convert this to Celsius and print the result.
 let celsius: number = (5 / 9) * (fahrenheit - 32);
 
 console.log("Celsius", celsius);
+
+// ? 15. Positive, Negative, or Zero
+// ? Instructions: Check if a number is positive, negative, or zero.
+
+let number: number = 15; // Determine the sign of this number.
+
+if (number == 0) {
+  console.log(`${number} is Zero`);
+} else if (number < 0) {
+  console.log(`${number} is Negative`);
+} else {
+  console.log(`${number} is Positive`);
+}
+
+number = -12;
+
+if (number == 0) {
+  console.log(`${number} is Zero`);
+} else if (number < 0) {
+  console.log(`${number} is Negative`);
+} else {
+  console.log(`${number} is Positive`);
+}
+
+number = 0;
+
+if (number == 0) {
+  console.log(`${number} is Zero`);
+} else if (number < 0) {
+  console.log(`${number} is Negative`);
+} else {
+  console.log(`${number} is Positive`);
+}
