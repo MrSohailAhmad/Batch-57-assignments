@@ -208,3 +208,14 @@ if (x > y) {
 }
 
 console.log(max);
+
+// ? 13. Leap Year Checker
+// ? Instructions: Check if a given year is a leap year.
+
+let year: number = 2024; // Determine if this is a leap year.
+
+if (year % 4 === 0) {
+  console.log(`${year} is Leap year`);
+} else {
+  console.log(`${year} is not Leap year`);
+}
