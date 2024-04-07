@@ -136,3 +136,22 @@ if (even_or_odd_number % 2 == 0) {
 } else {
   console.log(`${even_or_odd_number} is odd number`);
 }
+
+// ? 10. Voting Eligibility
+// ? Instructions: Check if a person is eligible to vote.
+
+let age: number = 15; // Check if age is 18 or older to determine voting eligibility.
+
+if (age < 18) {
+  console.log(`you are Not eligible for vote`);
+} else if (age >= 18) {
+  console.log(`you are eligible for vote`);
+}
+
+age = 26; // change age
+
+if (age < 18) {
+  console.log(`you are Not eligible for vote`);
+} else if (age >= 18) {
+  console.log(`you are eligible for vote`);
+}
