@@ -62,3 +62,13 @@ num4 = 3;
 
 result2 = num3 % num4;
 console.log(`reminder of ${num3} and ${num4} is : `, result2);
+
+//? 6. Increment Challenge
+//? Instructions: Increment a variable's value by 1 using two different methods.
+
+let counter: number = 0;
+
+counter++;
+console.log(counter);
+counter + 1;
+console.log(counter);
