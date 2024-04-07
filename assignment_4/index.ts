@@ -117,3 +117,22 @@ num *= 5;
 console.log("num *= 5 : ", num);
 num /= 5;
 console.log("num /= 5 : ", num);
+
+// ? 9. Even or Odd
+// ? Instructions: Write a program to check if a number is even or odd.
+
+let even_or_odd_number: number = 10; // Determine if this is even or odd.
+
+if (even_or_odd_number % 2 == 0) {
+  console.log(`${even_or_odd_number} is even number`);
+} else {
+  console.log(`${even_or_odd_number} is odd number`);
+}
+
+even_or_odd_number = 13;
+
+if (even_or_odd_number % 2 == 0) {
+  console.log(`${even_or_odd_number} is even number`);
+} else {
+  console.log(`${even_or_odd_number} is odd number`);
+}
