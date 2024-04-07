@@ -1,8 +1,8 @@
 //? Hello Variable
 //? Instructions: Declare a variable named greeting with the string value "Hello, World!" and print it.
-// let greeting: string = "Hello, World!"; // Assign "Hello, World!" to this variable and print it.
+let greeting: string = "Hello, World!"; // Assign "Hello, World!" to this variable and print it.
 
-// console.log(greeting);
+console.log(greeting);
 
 //? 2. Basic Math
 //? Instructions: Define two variables with integer values and calculate their sum, difference, product, and quotient.
@@ -21,3 +21,19 @@ console.log("Quotient of num1 and num2 is : ", result);
 
 result = num1 * num2; // * Product
 console.log("Product of num1 and num2 is : ", result);
+
+//? 3. Swapping Values
+//? Instructions: Swap the values of two variables without using a third variable.
+
+let a = 1,
+  b = 2;
+// Swap these values without using a new variable.
+
+console.log("Value of a", a);
+console.log("Value of b", b);
+
+(a = a + b), (b = a - b), (a = a - b);
+
+console.log("answer ====> ");
+console.log("Value of a", a);
+console.log("Value of b", b);
