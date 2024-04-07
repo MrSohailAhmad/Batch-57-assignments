@@ -186,3 +186,25 @@ if (score >= 90) {
 } else {
   console.log("Grade is F");
 }
+
+//? 12. Max of Three
+//? Instructions: Find the maximum of three numbers.
+
+let x = 150,
+  y = 89,
+  z = 2100; // Determine the largest among these.
+
+let max: string;
+if (x > y) {
+  if (x > z) {
+    max = `x is max value which is ${x}`;
+  } else {
+    max = `z is max value which is ${z}`;
+  }
+} else if (y > z) {
+  max = `y is max value which is ${y}`;
+} else {
+  max = `y is max value which is ${y}`;
+}
+
+console.log(max);
