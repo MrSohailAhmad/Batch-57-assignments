@@ -155,3 +155,34 @@ if (age < 18) {
 } else if (age >= 18) {
   console.log(`you are eligible for vote`);
 }
+
+//? 11. Grading System
+//? Instructions: Assign a grade based on a numerical score.
+
+let score: number = 85; // Assign a grade based on this score.
+
+if (score >= 90) {
+  console.log("Grade is A");
+} else if (score >= 80) {
+  console.log("Grade is B");
+} else if (score >= 70) {
+  console.log("Grade is C");
+} else if (score >= 60) {
+  console.log("Grade is D");
+} else {
+  console.log("Grade is F");
+}
+
+score = 45; // change let score: number = 45;
+
+if (score >= 90) {
+  console.log("Grade is A");
+} else if (score >= 80) {
+  console.log("Grade is B");
+} else if (score >= 70) {
+  console.log("Grade is C");
+} else if (score >= 60) {
+  console.log("Grade is D");
+} else {
+  console.log("Grade is F");
+}
