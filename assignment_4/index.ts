@@ -219,3 +219,11 @@ if (year % 4 === 0) {
 } else {
   console.log(`${year} is not Leap year`);
 }
+
+//? 14. Fahrenheit to Celsius Converter
+//? Instructions: Write a program that converts temperature from Fahrenheit to Celsius.
+
+let fahrenheit: number = 89; // Convert this to Celsius and print the result.
+let celsius: number = (5 / 9) * (fahrenheit - 32);
+
+console.log("Celsius", celsius);
